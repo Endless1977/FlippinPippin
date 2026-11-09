@@ -1,12 +1,33 @@
 # Flippin Pippin
 
-**Het gekste kruispunt van Nederland.** Een 3D-partyspel in de browser met gekke figuren. Elke ronde gaat er een munt omhoog. Valt hij op **Flippin'**, dan gooit iedereen elkaar dood met rot fruit. Valt hij op **Pippin**, dan komt gekke Pippin mensen opeten en moet je haar een rioolput in lokken. En af en toe sjokt Ekie Poppema door de straat, die alles opeet wat ze tegenkomt.
+**De gekste straten van Nederland.** Een 3D-partyspel in de browser met gekke figuren, op vijf verschillende maps. Elke ronde gaat er een munt omhoog. Valt hij op **Flippin'**, dan gooit iedereen elkaar dood met rot fruit. Valt hij op **Pippin**, dan komt gekke Pippin mensen opeten en moet je haar een rioolput in lokken. En af en toe sjokt Ekie Poppema door de straat, die alles opeet wat ze tegenkomt.
 
 ### ▶ [Speel nu: endless1977.github.io/FlippinPippin](https://endless1977.github.io/FlippinPippin/)
 
 Je hoeft niets te installeren: het spel is één HTML-bestand. Speel solo tegen bots, of samen via internet met een kamercode.
 
 ![Hoofdmenu](screenshots/01-menu.jpg)
+
+---
+
+## Maps
+
+Kies in het menu op welke map je speelt, of kies **Elke ronde anders** voor afwisseling: dan komt elke ronde een andere map, tot ze allemaal geweest zijn. Overal botsen figuren en gegooid fruit tegen gebouwen en obstakels, en elke map heeft eigen rioolputten voor Pippin. Huizen tussen de camera en jou worden doorzichtig, zodat je jezelf altijd ziet.
+
+| Map | Wat is er anders |
+|---|---|
+| **Kruispunt** | Het origineel: twee brede straten met zebrapaden en grachtenpanden. |
+| **Marktplein** | Open plein met een fontein in het midden, twee rijen marktkramen om achter te schuilen en een kerk met klokkentoren. |
+| **Grachten** | Twee kades langs een gracht met drie bruggen. Over de kademuur gooien kan, erin vallen niet. Fruit in het water verdwijnt met een plons. |
+| **Rotonde** | Een grote rotonde met een reuzen rotte appel op het middeneiland. Rennen in rondjes, en Pippin achter je aan. |
+| **Steegjes** | Een doolhof van smalle steegjes tussen lage huisjes, met een paar pleintjes. Pippin vindt hier zelf de weg naar je toe. |
+
+| | |
+|---|---|
+| ![Marktplein](screenshots/10-marktplein.jpg) | ![Grachten](screenshots/11-grachten.jpg) |
+| ![Rotonde](screenshots/12-rotonde.jpg) | ![Steegjes](screenshots/13-steegjes.jpg) |
+
+Online kiest de host de map. De andere spelers hoeven niets te laden: de ingebouwde maps zitten in het spel zelf. Alleen voor een eigen arena-GLB moet iedereen hetzelfde bestand kiezen.
 
 ---
 
@@ -71,7 +92,7 @@ Na elke ronde zie je het scorebord. Wie de meeste punten heeft na het ingestelde
 
 ![Lobby met kamercode](screenshots/02-lobby.jpg)
 
-- Maximaal 8 echte spelers per kamer. Bots vullen de rest aan (0 tot 14, in te stellen door de host).
+- Maximaal 8 echte spelers per kamer. Bots vullen de rest aan (0 tot 14, in te stellen door de host). Map en speelduur kiest de host ook.
 - De host is de scheidsrechter: zijn computer rekent het spel door. Houd het tabblad van de host dus open.
 - Valt iemand halverwege weg, dan neemt een bot zijn poppetje over.
 - Spelers vinden elkaar via de gratis PeerJS-server en verbinden daarna rechtstreeks. Achter sommige strenge routers of mobiele netwerken lukt dat niet. Laat dan een andere speler hosten.
@@ -81,7 +102,7 @@ Na elke ronde zie je het scorebord. Wie de meeste punten heeft na het ingestelde
 
 ## Eigen 3D-modellen (.glb)
 
-In het menu kies je eigen GLB-bestanden voor de **arena**, de **personen**, **Pippin** en **Ekie**. Klik daarna op **Afstellen** om ze goed te zetten.
+In het menu kies je eigen GLB-bestanden voor de **arena**, de **personen**, **Pippin** en **Ekie**. Klik daarna op **Afstellen** om ze goed te zetten. Een geladen arena verschijnt als **Eigen arena** in de lijst met maps.
 
 | Instelling | Wat het doet |
 |---|---|
